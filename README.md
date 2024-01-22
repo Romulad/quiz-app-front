@@ -9,7 +9,7 @@ ReactJs as the Front-end Framework
 For client side routing
 
 Runs the live version here :\
-[https://quiz-steel-omega.vercel.app](quiz-app) to view it in your browser.
+Open [https://quiz-steel-omega.vercel.app](quiz-app) to view it in your browser.
 
 
 
