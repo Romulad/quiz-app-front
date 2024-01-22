@@ -10,7 +10,7 @@ For client side routing
 
 Runs the live version here :\
 [https://quiz-steel-omega.vercel.app](https://quiz-steel-omega.vercel.app) 
-to view it in your browser. \\\\
+to view it in your browser. <br><br>
 
 # Getting Started with Create React App
 
