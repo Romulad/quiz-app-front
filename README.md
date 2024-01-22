@@ -1,4 +1,4 @@
-Front End for a Quiz app using :
+# Front End for a Quiz app using :
 
 ## ReactJs
 
@@ -7,6 +7,9 @@ ReactJs as the Front-end Framework
 ## React Router
 
 For client side routing
+
+Runs the live version here .\
+Open [https://quiz-steel-omega.vercel.app/](quiz app) to view it in your browser.
 
 # Getting Started with Create React App
 
