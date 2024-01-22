@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Dm sans bold';
+    src: url("fonts/DMSans-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Dm sans regular';
+    src: url("fonts/DMSans-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Dm sans light';
+    src: url("fonts/DMSans-Light.ttf") format('truetype');
+}
+
+
+/* Animation */
+@keyframes HeOhEffect {
+   from{
+    transform: translateY(0px);
+   } 
+
+   50%{
+    transform: translateY(-20px);
+   }
+
+   75%{
+    transform: translateY(0px);
+   }
+
+   90%{
+    transform: translateY(-10px);
+   }
+
+   to{
+    transform: translateY(0px);
+   }
+}
+.HeOhEffect{
+    animation-name: HeOhEffect;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes scaleAnima {
+    from{
+        transform: scale(0.5);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+.scale-anima{
+    animation-name: scaleAnima;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.scale-anima-slow{
+    animation-name: scaleAnima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes opacityAnim {
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+.opacity-anima{
+    animation-name: opacityAnim;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+ 
+/*          */
+body{
+    font-family: 'Dm sans regular', sans-serif;
+}
+
+.dm-light{
+    font-family: 'Dm sans light', sans-serif;
+}
+
+.dm-bold{
+    font-family: 'Dm sans bold', sans-serif;
+}
+
+.border-radius{
+    border-radius: 0.5rem;
+}
+
+.border-top-radius{
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.border-radius-md{
+    border-radius: 1rem;
+}
+
+.border-radius-lg{
+    border-radius: 5rem;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-17{
+    font-size: 17px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.h-10{
+    height:10%;
+}
+
+.h-90{
+    height:90%;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.h-95{
+    height:95%;
+}
+
+.mt-6{
+    margin-top: 60px;
+}
+
+.mb-6{
+    margin-bottom: 60px;
+}
+
+.mt-7{
+    margin-top: 70px;
+}
+
+.mb-7{
+    margin-bottom: 70px;
+}
+
+.shadow-same{
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.left-non-visible{
+    left: -100%;
+}
+
+.icon:focus{
+    box-shadow: 0rem 0rem 0rem 0.3rem rgb(212, 215, 217);
+    border-radius: 10rem;
+    border: 0px !important;
+}
+
+.opa-8{
+    opacity: 0.8;
+}
+
+.opa-9{
+    opacity: 0.9;
+}
+
+.bg-gradient-ciel{
+    background:  linear-gradient(to left, #c2b507, #FBB03B)
+}

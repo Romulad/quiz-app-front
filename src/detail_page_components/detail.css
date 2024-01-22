@@ -1,0 +1,125 @@
+
+
+.page-bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding : 10px;
+    background-color : #ffff;
+    box-shadow: 0rem -0.1rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1)
+}
+
+button.next-btn{
+    background-color: rgb(247, 182, 60);
+    border: none;
+    padding: 8px 28px;
+    border-radius: 5rem;
+    margin-left: auto;
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+button.next-btn:hover{
+    box-shadow: 0rem 0rem 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+button.next-btn:focus{
+    box-shadow: 0rem 0rem 0.2rem 0.4rem rgb(254, 221, 163);
+}
+
+.progress-bar{
+    border : 1px solid #dee2e6;
+    border-radius: 5rem;
+    width: 650px;
+    background-color: transparent;
+}
+@media screen and (max-width : 700px) {
+    .progress-bar{
+        width: 98%;
+    }
+}
+.progress-bar-inner{
+    background:  linear-gradient(to right, #2E3192, #1BFFFF);
+    padding: 5px 0px;
+    border-radius: 5rem;
+    width: 1%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.quiz-question{
+    background-color: rgb(237, 241, 244);
+    border-radius: 0.5rem;
+    padding: 8px 20px;
+    display: inline-block;
+}
+
+.choice,
+.choice-active-t,
+.choice-active-w{
+    border: 1px solid #d5d6d9;
+    border-radius: 0.5rem;
+    margin: 5px 0px;
+    background-color: transparent;
+    transition: all 0.3 ease-in-out;
+}
+
+.choice:hover{
+    background-color: #f3f3f39c;
+}
+
+.choice-active-w{
+    background-color: rgb(204, 50, 50);
+    color: #ffff;
+}
+
+.choice-active-t{
+    background-color: rgb(38, 158, 38);
+    color: #ffff;
+}
+
+.level-point{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #FBB03B;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.level-point-text{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.score-bar{
+    border : 1px solid #dee2e6;
+    border-radius: 5rem;
+    width: 100%;
+    background-color: transparent;
+}
+
+.score-bar-inner{
+    background:  linear-gradient(to right, #D4145A, #FBB03B);
+    padding: 5px 0px;
+    border-radius: 5rem;
+    width: 2%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.success-page-contain{
+    width: 500px;
+}
+
+@media screen and (max-width:600px) {
+    .success-page-contain{
+        width: 98%;
+    }
+}
+
+.good-response-bg{
+    background: linear-gradient(to right, #38EF7D, #11998E);
+}
+
+.bad-response-bg{
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+}
